@@ -1,0 +1,25 @@
+/**
+ * @var {number}
+ * The font-size of the FieldSet header
+ */
+$fieldset-header-font-size: dynamic($font-size-small);
+
+/**
+ * @var {color}
+ * The text color of the FieldSet header
+ */
+$fieldset-header-color: dynamic($color-bmw-basic4);
+
+/**
+ * @var {string/list}
+ * Glyph for the "expand" tool icon when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$fieldset-tool-expand-glyph: dynamic($iwp-icon-font-gen_arrow_up $grid-grouped-title-glyph-font-size $iwp-icon-font-family);
+
+/**
+ * @var {string/list}
+ * Glyph for the "collapse" tool icon when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$fieldset-tool-collapse-glyph: dynamic($iwp-icon-font-gen_arrow_down $grid-grouped-title-glyph-font-size $iwp-icon-font-family);
+$fieldset-header-line-height: dynamic(16px);
+$fieldset-padding: dynamic(0px 10px);

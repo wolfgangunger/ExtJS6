@@ -1,0 +1,12 @@
+
+/**
+ * @var {string/list}
+ * Glyph for the RowExpander's "expand" icon when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$row-expander-expand-glyph: dynamic($iwp-icon-font-gen_plus $grid-grouped-title-glyph-font-size $iwp-icon-font-family);
+
+/**
+ * @var {string/list}
+ * Glyph for the RowExpander's "collapse" icon when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$row-expander-collapse-glyph: dynamic($iwp-icon-font-gen_minus $grid-grouped-title-glyph-font-size $iwp-icon-font-family);

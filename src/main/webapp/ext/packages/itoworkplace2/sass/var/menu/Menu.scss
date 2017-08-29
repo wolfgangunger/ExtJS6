@@ -1,0 +1,65 @@
+/**
+ * @var {color}
+ * The background-color of the Menu
+ */
+$menu-background-color:                 $color-bmw-basic5;
+
+/**
+ * @var {color}
+ * The border-color of the Menu
+ */
+$menu-border-color:                     $color-bmw-basic1;
+
+/**
+ * @var {number}
+ * The border-width of {@link Ext.menu.Item Menu Items}
+ */
+$menu-item-border-width:                0;
+
+/**
+ * @var {string}
+ * The font-family of {@link Ext.menu.Item Menu Items}
+ */
+$menu-item-font-family:                 $font-stack;
+
+/**
+ * @var {number}
+ * The font-size of {@link Ext.menu.Item Menu Items}
+ */
+$menu-item-font-size:                   $font-size-small;
+
+/**
+ * @var {string}
+ * The font-weight of {@link Ext.menu.Item Menu Items}
+ */
+$menu-item-font-weight:                 300;
+
+/**
+ * @var {number}
+ * The height of {@link Ext.menu.Item Menu Items}
+ */
+$menu-item-height:                      28px;
+
+
+/**
+ * @var {color}
+ * The text color of the active {@link Ext.menu.Item Menu Item}
+ */
+$menu-item-active-text-color:           $color-app-text-black;
+
+/**
+ * @var {color}
+ * The border-color of the active {@link Ext.menu.Item Menu Item}
+ */
+$menu-item-active-border-color:         $color-bmw-form-border;
+
+/**
+ * @var {color}
+ * The background-color of the active {@link Ext.menu.Item Menu Item}
+ */
+$menu-item-active-background-color:     $color-bmw-basic2;
+/**
+ * @var {string/list}
+ * Glyph for the menu arrow icon when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$menu-item-arrow-glyph:                 $iwp-icon-font-gen_nav_arrow_right $iwp-icon-font-button-small $iwp-icon-font-family;

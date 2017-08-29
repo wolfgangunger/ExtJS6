@@ -1,0 +1,96 @@
+/*
+Die Buttons haben einen Rahmen in Hintergrundfarbe.
+Horizontal Split: Rechter Rand andersfarbig beim ersten und mittleren Buttons.
+Vertikal Split: Unterer Rand andersfarbig beim ersten und mittleren Buttons.
+Beim Hover wird immer ein kompletter schwarzer Rahmen gesetzt, egal welche Position und toggle-Zustand.
+*/
+
+.#{$prefix}segmented-button-item-horizontal {
+  &.#{$prefix}segmented-button-first {
+	border: 1px solid $iwp-button-background-color;
+	border-right: 1px solid $color-bmw-accent2-shade2;
+	&.#{$prefix}btn-over, &.#{$prefix}btn-focus {
+	  border: 1px solid $iwp-button-border-color-over;
+	}
+	&.#{$prefix}btn-pressed {
+	  border: 1px solid $iwp-button-background-color-pressed;
+	  border-right: 1px solid $color-bmw-accent2-shade2;
+	  &.#{$prefix}btn-over, &.#{$prefix}btn-focus {
+		border: 1px solid $iwp-button-border-color-over;
+	  }
+	}
+  }
+
+  &.#{$prefix}segmented-button-middle {
+	border: 1px solid $iwp-button-background-color;
+	border-right: 1px solid $color-bmw-accent2-shade2;
+	&.#{$prefix}btn-over, &.#{$prefix}btn-focus {
+	  border: 1px solid $iwp-button-border-color-over;
+	}
+	&.#{$prefix}btn-pressed {
+	  border: 1px solid $iwp-button-background-color-pressed;
+	  border-right: 1px solid $color-bmw-accent2-shade2;
+	  &.#{$prefix}btn-over, &.#{$prefix}btn-focus {
+		border: 1px solid $iwp-button-border-color-over;
+	  }
+	}
+  }
+
+  &.#{$prefix}segmented-button-last {
+	border: 1px solid $iwp-button-background-color;
+	&.#{$prefix}btn-over, &.#{$prefix}btn-focus {
+	  border: 1px solid $iwp-button-border-color-over;
+	}
+	&.#{$prefix}btn-pressed {
+	  border: 1px solid $iwp-button-background-color-pressed;
+	  &.#{$prefix}btn-over, &.#{$prefix}btn-focus {
+		border: 1px solid $iwp-button-border-color-over;
+	  }
+	}
+  }
+}
+
+.#{$prefix}segmented-button-item-vertical {
+  &.#{$prefix}segmented-button-first {
+	border: 1px solid $iwp-button-background-color;
+	border-bottom: 1px solid $color-bmw-accent2-shade2;
+	&.#{$prefix}btn-over, &.#{$prefix}btn-focus {
+	  border: 1px solid $iwp-button-border-color-over;
+	}
+	&.#{$prefix}btn-pressed {
+	  border: 1px solid $iwp-button-background-color-pressed;
+	  border-bottom: 1px solid $color-bmw-accent2-shade2;
+	  &.#{$prefix}btn-over, &.#{$prefix}btn-focus {
+		border: 1px solid $iwp-button-border-color-over;
+	  }
+	}
+  }
+
+  &.#{$prefix}segmented-button-middle {
+	border: 1px solid $iwp-button-background-color;
+	border-bottom: 1px solid $color-bmw-accent2-shade2;
+	&.#{$prefix}btn-over, &.#{$prefix}btn-focus {
+	  border: 1px solid $iwp-button-border-color-over;
+	}
+	&.#{$prefix}btn-pressed {
+	  border: 1px solid $iwp-button-background-color-pressed;
+	  border-bottom: 1px solid $color-bmw-accent2-shade2;
+	  &.#{$prefix}btn-over, &.#{$prefix}btn-focus {
+		border: 1px solid $iwp-button-border-color-over;
+	  }
+	}
+  }
+
+  &.#{$prefix}segmented-button-last {
+	border: 1px solid $iwp-button-background-color;
+	&.#{$prefix}btn-over, &.#{$prefix}btn-focus {
+	  border: 1px solid $iwp-button-border-color-over;
+	}
+	&.#{$prefix}btn-pressed {
+	  border: 1px solid $iwp-button-background-color-pressed;
+	  &.#{$prefix}btn-over, &.#{$prefix}btn-focus {
+		border: 1px solid $iwp-button-border-color-over;
+	  }
+	}
+  }
+}

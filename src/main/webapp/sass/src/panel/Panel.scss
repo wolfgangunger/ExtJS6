@@ -1,0 +1,8 @@
+@include extjs-panel-ui(
+  $ui: 'atg-side-menu-panel',
+  $ui-border-color: red,
+  $ui-padding: 10,
+  $ui-header-background-color: #0093c5,
+  $ui-body-background-color: #0093c5
+
+);

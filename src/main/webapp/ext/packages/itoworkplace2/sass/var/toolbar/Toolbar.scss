@@ -1,0 +1,42 @@
+
+/**
+ * @var {number}
+ * The default font-size of Toolbar text
+ */
+$toolbar-font-size:                 $font-size-normal;
+
+/**
+ * @var {color}
+ * The background-color of {@link Ext.panel.Panel#fbar footer} Toolbars
+ */
+$toolbar-footer-background-color:   $color-bmw-basic5;
+
+/**
+ * @var {string}
+ * The default font-family of Toolbar text
+ */
+$toolbar-text-font-family:          $font-stack;
+
+/**
+ * @var {color}
+ * The color to use for toolbar scroller icons when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$toolbar-scroller-glyph-color:      $color-bmw-form-text;
+
+/**
+ * @var {string/list}
+ * Glyph for the "top" scroller icon when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$toolbar-scroller-top-glyph:        $iwp-icon-font-gen_nav_arrow_up $iwp-icon-font-button-medium $iwp-icon-font-family;
+
+/**
+ * @var {string/list}
+ * Glyph for the "right" scroller icon when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$toolbar-scroller-right-glyph:      $iwp-icon-font-gen_nav_arrow_right $iwp-icon-font-button-medium $iwp-icon-font-family;
+
+/**
+ * @var {string/list}
+ * Glyph for the "bottom" scroller icon when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$toolbar-scroller-bottom-glyph:     $iwp-icon-font-gen_nav_arrow_down $iwp-icon-font-button-medium $iwp-icon-font-family;

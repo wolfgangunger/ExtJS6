@@ -1,0 +1,148 @@
+.atg-navigation-container {
+  // background: #fafafa;
+}
+
+.atg-menu-toolbar {
+  // background: transparent;
+  // background: #0093c5;
+  // border: 0;
+  padding: 0px;
+  // width: 40px;
+}
+.atg-menu-slider {
+  background: #444444;
+}
+
+.atg-submenu-popup {
+  background-color: #444444;
+}
+
+.atg-submenu-popup-item {
+  background: #444444;
+  color: #ffffff !important;
+  height: 40px;
+  width: 220px;
+  &.x-menu-item-separator {
+    background-color: #444444;
+    color: #444444;
+  }
+
+  >.x-menu-item-link {
+    width: 100%;
+    height: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    .x-menu-item-text {
+      margin: 0;
+      color: #ffffff !important;
+    }
+  }
+
+  &.x-focus .x-menu-item-focus {
+    background: #5a5a5a;
+    color: #ffffff !important;
+  }
+
+  &.x-menu-item-active {
+    background: #5a5a5a;
+    color: #ffffff;
+  }
+
+  &:hover {
+    color: #ffffff !important;
+    background: #5a5a5a;
+  }
+}
+
+.atg-submenu-popup-item>.x-menu-item-link .x-menu-item-text {
+      padding: 0 0 0 20px;
+}
+
+.atg-menu-slider-container-title {
+  font-size: 16px;
+  height: 45px;
+  width: 100%;
+  text-transform: uppercase;
+}
+// // side menu buttons
+
+.atg-menu-brand {
+  padding: 0;
+  height: 90px;
+  width: 40px;
+  background: transparent;
+  &:hover {
+    background: transparent;
+    border: 0 transparent;
+  }
+
+  >span >span {
+    span:nth-of-type(2) {
+      color: white;
+      padding: 0;
+      text-transform: uppercase;
+      transform: rotate(-90deg);
+      overflow: inherit; // todo: remove hack
+    }
+  }
+}
+
+.atg-menu-brand-over {
+  color: white;
+  background: #5a5a5a;
+}
+.atg-menu-brand-focus {
+  background-color: #444444;
+  color: white;
+}
+
+.atg-menu-button {
+  padding: 0;
+  height: 40px;
+  width: 40px;
+  color: black;
+  background: transparent;
+  &:hover {
+    color: black;
+    background: #5a5a5a !important;
+  }
+  &.x-btn.x-btn-pressed,
+  &.x-btn.x-btn-menu-active,
+  &:active,
+  &:focus {
+    background: #444444 !important;
+  }
+  >span >span >span {
+    color: white;
+    background-size: contain;
+  }
+}
+
+.atg-menu-slider-accordion {
+  margin-bottom: 6px;
+  &:not(:first-of-type) {
+    border-top: 1px solid white;
+  }
+  .x-panel-header {
+    background: #444;
+    padding: 0;
+    .x-panel-header-title {
+      color: #fff !important;
+      width: 220px !important;
+    }
+
+    .x-tool {
+      width: 16px;
+      .x-tool-img {
+        color: #fff !important;
+      }
+    }
+  }
+  .x-panel-body {
+    padding: 0;
+    // background-color: transparent;
+    background: #444;
+    color: #fff;
+    border-bottom: 1px white;
+  }
+}

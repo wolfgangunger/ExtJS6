@@ -1,0 +1,43 @@
+/**
+ * @class Ext.view.Table
+ */
+
+/**
+ * @var {color}
+ * The color of the grid cell dirty indicator when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$grid-cell-dirty-glyph-color: dynamic($color-bmw-error);
+
+/**
+ * @var {color}
+ * The border-color of row/column borders. Can be specified as a single color, or as a list
+ * of colors containing the row border color followed by the column border color.
+ */
+$grid-row-cell-border-color: dynamic($color-bmw-basic3-shade3);
+
+/**
+ * @var {color}
+ * The background-color of the selected row
+ */
+$grid-row-cell-selected-background-color: dynamic($color-bmw-highlight-shade2);
+
+/**
+ * @var {color}
+ * The border-color of the selected row
+ */
+$grid-row-cell-selected-border-color: dynamic(top($color-bmw-highlight-shade1));
+
+/**
+ * @var {color}
+ * The background-color color of odd-numbered rows when the table view is configured with
+ * `{@link Ext.view.Table#stripeRows stripeRows}: true`.
+ */
+$grid-row-cell-alt-background-color: dynamic(#f6f6f6);
+
+/**
+ * @var {color}
+ * The background-color of the hovered row
+ */
+$grid-row-cell-over-background-color: dynamic($color-bmw-basic3-shade3);
+
+$grid-row-cell-line-height: 15px;

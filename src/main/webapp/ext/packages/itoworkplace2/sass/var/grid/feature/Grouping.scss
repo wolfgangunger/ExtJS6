@@ -1,0 +1,21 @@
+
+/**
+ * @var {number}
+ * The font size for the group title's expand and collapse icons when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$grid-grouped-title-glyph-font-size: dynamic(18px);
+
+/**
+ * @var {string/list}
+ * Glyph for the group title's "expand" group icon when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$grid-grouped-title-expand-glyph: dynamic($iwp-icon-font-gen_plus $grid-grouped-title-glyph-font-size $iwp-icon-font-family);
+
+/**
+ * @var {string/list}
+ * Glyph for the group title's "collapse" group icon when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$grid-grouped-title-collapse-glyph: dynamic($iwp-icon-font-gen_minus $grid-grouped-title-glyph-font-size $iwp-icon-font-family);
+
+$grid-grouped-header-padding: dynamic(7px 4px);
+$grid-grouped-icon-padding: dynamic(0 0 0 17px);

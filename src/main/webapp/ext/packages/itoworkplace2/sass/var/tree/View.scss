@@ -1,0 +1,37 @@
+$tree-glyph-color: dynamic($color-app-text-black);
+
+/**
+ * @var {number}
+ * The font size to use for tree icons when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$tree-glyph-font-size: dynamic(18px);
+
+/**
+ * @var {string/list}
+ * Glyph for the "folder" tree icon when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$tree-folder-glyph: dynamic($iwp-icon-font-pri_folder_outline $tree-glyph-font-size $iwp-icon-font-family);
+
+/**
+ * @var {string/list}
+ * Glyph for the "open folder" tree icon when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$tree-folder-open-glyph: dynamic($iwp-icon-font-zeb_folder $tree-glyph-font-size $iwp-icon-font-family);
+
+/**
+* @var {string/list}
+* Glyph for the "leaf" tree icon when {@link Global_CSS#$enable-font-icons} is `true`.
+*/
+$tree-leaf-glyph: dynamic($iwp-icon-font-pri_doc_outline $tree-glyph-font-size $iwp-icon-font-family);
+
+/**
+* @var {string/list}
+* Glyph for the "expand" tree icon when {@link Global_CSS#$enable-font-icons} is `true`.
+*/
+$tree-expand-glyph: dynamic($iwp-icon-font-gen_plus $tree-glyph-font-size $iwp-icon-font-family);
+
+/**
+* @var {string/list}
+* Glyph for the "collapse" tree icon when {@link Global_CSS#$enable-font-icons} is `true`.
+*/
+$tree-collapse-glyph: dynamic($iwp-icon-font-gen_minus $tree-glyph-font-size $iwp-icon-font-family);

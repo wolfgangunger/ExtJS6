@@ -1,0 +1,38 @@
+// Tabs haben eine minimal Breite
+.#{$prefix}tab.#{$prefix}tab-default {
+    min-width: 96px;
+
+    // Durch die Angabe von border-color mit 4 Farbwerten funktioniert das Ausrichten der Tabs links, rechts und unten nicht
+    // mehr. Die Rahmenfarben müssen händisch korrigiert werden
+    &.#{$prefix}tab-active {
+        &.#{$prefix}tab-default-bottom {
+            border-color: $color-bmw-highlight  $color-bmw-basic1  $color-bmw-basic1  $color-bmw-basic1;
+        }
+
+        &.#{$prefix}tab-default-left {
+            border-color:  $color-bmw-basic1 $color-bmw-highlight  $color-bmw-basic1  $color-bmw-basic1;
+        }
+
+        &.#{$prefix}tab-default-right {
+            border-color:  $color-bmw-basic1  $color-bmw-basic1  $color-bmw-basic1 $color-bmw-highlight;
+        }
+    }
+
+    &.#{$prefix}tab-default-bottom {
+        border-color: $color-bmw-form-button $color-bmw-basic1 $color-bmw-basic1 $color-bmw-basic1;
+    }
+
+    &.#{$prefix}tab-default-left {
+        border-color: $color-bmw-basic1 $color-bmw-form-button $color-bmw-basic1 $color-bmw-basic1;
+    }
+
+    &.#{$prefix}tab-default-right {
+        border-color: $color-bmw-basic1 $color-bmw-basic1 $color-bmw-basic1 $color-bmw-form-button;
+    }
+
+}
+
+/* bug: doppelte opacity. Container hat bereits eine */
+.#{$prefix}tab-inner-default {
+    opacity: 1;
+}

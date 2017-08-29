@@ -1,0 +1,10 @@
+// dark header color does not work with default item-selected color
+.#{$prefix}grid-cell-inner-row-numberer {
+	color: $color-bmw-basic5;
+}
+$grid-cell-inner-padding: dynamic(5px 10px 4px);
+$grid-row-numberer-cell-padding:
+    top($grid-cell-inner-padding)
+    $grid-row-numberer-cell-spacing-after
+    bottom($grid-cell-inner-padding)
+    $grid-row-numberer-cell-spacing-before;

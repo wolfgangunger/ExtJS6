@@ -1,0 +1,126 @@
+/**
+ * @var {color}
+ * The base color of Tabs
+ */
+$tab-base-color:                            $color-bmw-basic5;
+
+/**
+ * @var {color}
+ * The base color of focused Tabs
+ */
+$tab-base-color-focus:                      $color-bmw-basic2;
+
+/**
+ * @var {color}
+ * The base color of hovered Tabs
+ */
+$tab-base-color-over:                       $tab-base-color;
+
+
+/**
+ * @var {color}
+ * The text color of Tabs
+ */
+$tab-color:                                 $color-app-text-black;
+
+/**
+ * @var {color}
+ * The text color of {@link Ext.tab.Bar#plain} Tabs
+ */
+$tab-plain-color: 							$color-app-text-black;
+
+/**
+ * @var {color}
+ * The text color of the active Tab
+ */
+$tab-color-active:                          $color-app-text-black;
+
+
+/**
+ * @var {number/list}
+ * The border-width of Tabs
+ */
+$tab-border-width:                          1px 1px 3px 1px;
+
+/**
+ * @var {number}
+ * The outline width of focused Tabs
+ */
+$tab-outline-width-focus:                   0;
+
+/**
+ * @var {color}
+ * The border-color of Tabs
+ */
+$tab-border-color:                          $color-bmw-basic1 $color-bmw-basic1 $color-bmw-form-button $color-bmw-basic1;
+
+/**
+ * @var {color}
+ * The border-color of hovered Tabs
+ */
+$tab-border-color-over:                     $color-bmw-basic4 $color-bmw-basic4 $color-bmw-form-button $color-bmw-basic4;
+
+/**
+ * @var {color}
+ * The border-color of the active Tab
+ */
+// This setting will override the border-color-over. There is no active-border-color-over
+$tab-border-color-active:                   $color-bmw-basic1 $color-bmw-basic1 $color-bmw-highlight $color-bmw-basic1;
+
+
+/**
+ * @var {string/list}
+ * Glyph for the Tab close icon when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$tab-closable-icon-glyph:                   $iwp-icon-font-gen_close_s $iwp-icon-font-button-large $iwp-icon-font-family;
+
+/**
+* @var {color}
+* The color of the Tab close icon when {@link Global_CSS#$enable-font-icons} is `true`.
+*/
+$tab-closable-icon-glyph-color: dynamic($color-app-text-black);
+$tab-closable-icon-glyph-color-active: dynamic($color-app-text-black);
+
+/**
+ * @var {number}
+ * The distance to offset the Tab close icon from the top of the tab
+ */
+$tab-closable-icon-top: dynamic(10px);
+
+/**
+ * @var {number}
+ * The distance to offset the Tab close icon from the right of the tab
+ */
+$tab-closable-icon-right: dynamic(10px);
+
+/**
+ * @var {number}
+ * Tab opacity
+ */
+$tab-opacity:                               null;
+
+/**
+ * @var {number}
+ * Tab opacity when hovered
+ */
+$tab-opacity-over:                          null;
+
+/**
+ * @var {number}
+ * Tab opacity when disabled
+ */
+$tab-opacity-disabled:                      .7;
+
+/**
+ * @var {number}
+ * Tab background opacity
+ */
+$tab-background-opacity:                    null;
+
+/**
+ * @var {number}
+ * Tab background opacity when hovered
+ */
+$tab-background-opacity-over:               null;
+
+$tab-padding: dynamic(7px 12px 6px);

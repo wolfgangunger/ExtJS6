@@ -1,0 +1,12 @@
+.bmw-table .#{$prefix}title-text{
+    font-size: $font-size-large;
+}
+
+.bmw-table .#{$prefix}panel-header{
+    background-color: transparent;
+    border: none;
+}
+
+.bmw-table .#{$prefix}title-text {
+    line-height: 18px;
+}

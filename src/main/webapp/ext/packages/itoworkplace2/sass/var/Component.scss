@@ -1,0 +1,20 @@
+/**
+ * @var {color} $color
+ * The default text color to be used throughout the theme.
+ */
+$color:                                 $color-app-text-black;
+
+/**
+ * @var {string} $font-family
+ * The default font-family to be used throughout the theme.
+ */
+$font-family:                           $font-stack;
+
+/**
+ * @var {number} $font-size
+ * The default font-size to be used throughout the theme.
+ */
+$font-size:                             $font-size-normal;
+
+// Triton theme, FieldSet
+$neutral-light-color:					$color-bmw-basic5;

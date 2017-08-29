@@ -1,0 +1,53 @@
+/**
+ * @var {color}
+ * The base color of the Tab Bar
+ */
+$tabbar-base-color:                                 transparent;
+
+/**
+ * @var {number}
+ * The opacity of Tab Bar scrollers
+ */
+$tabbar-scroller-opacity:                           1;
+
+/**
+ * @var {number}
+ * The opacity of disabled Tab Bar scrollers
+ */
+$tabbar-scroller-opacity-disabled:                  .5;
+
+/**
+ * @var {color}
+ * The color to use for Tab Bar scroller icons when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$tabbar-scroller-glyph-color:                       $color-bmw-form-text;
+
+/**
+ * @var {color}
+ * The color to use for "plain" Tab Bar scroller icons when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$tabbar-plain-scroller-glyph-color:                 $color-bmw-form-text;
+
+/**
+ * @var {string/list}
+ * Glyph for the "top" scroller icon when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$tabbar-scroller-top-glyph:                         $iwp-icon-font-gen_nav_arrow_up $iwp-icon-font-button-medium $iwp-icon-font-family;
+
+/**
+ * @var {string/list}
+ * Glyph for the "right" scroller icon when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$tabbar-scroller-right-glyph:                       $iwp-icon-font-gen_nav_arrow_right $iwp-icon-font-button-medium $iwp-icon-font-family;
+
+/**
+ * @var {string/list}
+ * Glyph for the "bottom" scroller icon when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$tabbar-scroller-bottom-glyph:                       $iwp-icon-font-gen_nav_arrow_down $iwp-icon-font-button-medium $iwp-icon-font-family;
+
+/**
+ * @var {string/list}
+ * Glyph for the "left" scroller icon when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$tabbar-scroller-left-glyph:                        $iwp-icon-font-gen_nav_arrow_left $iwp-icon-font-button-medium $iwp-icon-font-family;

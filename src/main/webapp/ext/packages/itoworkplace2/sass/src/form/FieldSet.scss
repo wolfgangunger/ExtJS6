@@ -1,0 +1,10 @@
+.#{$prefix}fieldset {
+
+	.#{$prefix}fieldset-header {
+            padding: 0px 3px 1px 3px;
+	}
+}
+
+.#{$prefix}fieldset-header-tool-default.#{$prefix}focus {
+    outline-color:  $color-bmw-form-border;
+}

@@ -1,0 +1,77 @@
+/**
+ * @var {color}
+ * The base color of Windows
+ */
+$window-base-color:                         $color-bmw-basic2;
+
+/**
+ * @var {number}
+ * The border-width of Windows
+ */
+$window-border-width:                       0;
+
+/**
+ * @var {color}
+ * The border-color of Windows
+ */
+$window-border-color:                       $color-bmw-highlight;
+
+/**
+ * @var {color}
+ * The body background-color of Windows
+ */
+$window-body-background-color:             $color-bmw-basic5;
+
+/**
+ * @var {color}
+ * The body text color of Windows
+ */
+$window-body-color:                         $color-app-text-black;
+
+/**
+ * @var {color}
+ * The text color of Window Headers
+ */
+$window-header-color:                       $color-app-text-black;
+
+/**
+ * @var {color}
+ * The background-color of Window Headers
+ */
+$window-header-background-color:            $color-bmw-form-button;
+
+/**
+ * @var {string}
+ * The font-family of Window Headers
+ */
+$window-header-font-family:                 $font-stack;
+
+/**
+ * @var {color}
+ * The color of the Window Header glyph icon
+ */
+$window-header-glyph-color:                 $color-app-text-black;
+
+/**
+ * @var {number}
+ * The border-width of Window Headers
+ */
+$window-header-border-width:                0 0  3px 0;
+
+/**
+ * @var {number}
+ * The opacity of ghost Windows while dragging
+ */
+$window-ghost-opacity:                      .5;
+
+/**
+ * @var {number}
+ * The default font-size of the Window body
+ */
+$window-body-font-size:                     $font-size-normal;
+
+/**
+ * @var {string}
+ * The default font-family of the Window body
+ */
+$window-body-font-family:                   $font-stack;

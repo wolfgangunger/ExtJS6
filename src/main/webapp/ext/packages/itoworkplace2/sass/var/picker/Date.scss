@@ -1,0 +1,134 @@
+/**
+ * @var {color}
+ * The text color on the Date Picker
+ */
+$datepicker-item-color:                     $color-app-text-black;
+
+/**
+ * @var {string}
+ * The font-weight of Date Picker items
+ */
+$datepicker-item-font-weight:               300;
+
+/**
+ * @var {number}
+ * The font-size of Date Picker items
+ */
+$datepicker-item-font-size:                 $font-size-small;
+
+/**
+ * @var {string}
+ * The font-family of Date Picker items
+ */
+$datepicker-item-font-family:               $font-stack;
+
+/**
+ * @var {number}
+ * The height of Date Picker items
+ */
+$datepicker-item-height:                    25px;
+
+/**
+ * @var {number}
+ * The width of Date Picker items
+ */
+$datepicker-item-width:                     30px;
+
+/**
+ * @var {number/list}
+ * The padding of Date Picker items
+ */
+$datepicker-item-padding:                   0 9px 0 0;
+
+/**
+ * @var {color}
+ * The background-color of today's date on the Date Picker
+ */
+$datepicker-item-today-background-color:    $color-bmw-highlight-shade2;
+
+/**
+ * @var {number}
+ * The height of DatePicker arrows
+ */
+$datepicker-arrow-height:                   22px;
+
+/**
+ * @var {number}
+ * The height of Date Picker column headers
+ */
+$datepicker-column-header-height:           28px;
+
+/**
+ * @var {number/list}
+ * The padding of Date Picker column headers
+ */
+$datepicker-column-header-item-padding:     0 9px 0 0;
+
+/**
+ * @var {color}
+ * The text color of the column headers on the Date Picker
+ */
+$datepicker-column-header-color:            $color-bmw-form-text;
+
+/**
+ * @var {color}
+ * The background-color of the column headers on the Date Picker
+ */
+$datepicker-column-header-background-color: $color-bmw-form-button;
+
+/**
+ * @var {color}
+ * The background-color of the headers on the Date Picker
+ */
+$datepicker-header-background-color:        $color-bmw-form-button;
+
+/**
+ * @var {color}
+ * The text color of days in the previous or next month on the Date Picker
+ */
+$datepicker-item-prev-next-color:           $color-bmw-basic3-shade1;
+
+/**
+ * @var {color}
+ * The text color of selected Date Picker items
+ */
+$datepicker-item-selected-color:            $color-app-text-white;
+
+/**
+ * @var {color}
+ * The background-color of selected Date Picker items
+ */
+$datepicker-item-selected-background-color: $color-bmw-highlight;
+
+/**
+ * @var {color}
+ * The background-color of hovered Date Picker items
+ */
+$datepicker-item-hover-background-color:    $color-bmw-basic2;
+
+/**
+ * @var {string/list}
+ * Glyph for the arrow on the Date Picker month button when
+ * {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$datepicker-month-button-arrow-glyph:       $button-small-arrow-glyph;
+
+/**
+ * @var {number/list}
+ * The padding of the Date Picker month button
+ */
+$datepicker-month-button-padding:           $button-small-padding;
+
+/**
+ * @var {number}
+ * The height of Month Picker items
+ */
+$datepicker-monthpicker-item-height:        28px;
+
+/**
+ * @var {number/list}
+ * The margin of Month Picker items when the datepicker does not have footer buttons
+ */
+$datepicker-monthpicker-small-item-margin:  1px 5px;
+
+$datepicker-month-button-font-size: $font-size-normal;

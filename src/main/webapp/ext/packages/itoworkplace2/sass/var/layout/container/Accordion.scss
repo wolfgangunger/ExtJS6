@@ -1,0 +1,30 @@
+/**
+ * @var {color}
+ * The background-color of Accordion headers
+ */
+$accordion-header-background-color: dynamic($color-bmw-basic3-shade3);
+
+/**
+ * @var {color}
+ * The color to use for Accordion expand/collapse tool icons when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$accordion-tool-glyph-color: dynamic($color-app-text-black);
+
+/**
+ * @var {color}
+ * The background-color of Accordion headers when hovered
+ */
+$accordion-header-over-background-color: dynamic($color-bmw-basic3-shade3);
+
+/**
+ * @var {string/list}
+ * Glyph for the Accordion's "expand" tool icon when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$accordion-tool-expand-glyph: dynamic($iwp-icon-font-gen_arrow_down $iwp-icon-font-button-small $iwp-icon-font-family);
+
+/**
+ * @var {string/list}
+ * Glyph for the Accordion's "collapse" tool icon when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$accordion-tool-collapse-glyph: dynamic($iwp-icon-font-gen_arrow_up $iwp-icon-font-button-small $iwp-icon-font-family);
+$accordion-header-padding: dynamic(8px 10px);

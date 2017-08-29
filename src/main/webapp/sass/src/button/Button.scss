@@ -1,0 +1,10 @@
+@include extjs-button-ui(
+  $ui: 'atg-menu-button-ui',
+  $color: black,
+  $background-color: #0093c5,
+  $background-color-over: #0093c5,
+  $background-color-focus: #0093c5,
+  $background-color-pressed: #0093c5,
+  $background-color-focus-over: #0093c5,
+  $background-color-focus-pressed: #0093c5
+);

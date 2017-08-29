@@ -1,0 +1,26 @@
+/**
+ * @class Ext.grid.column.Column
+ */
+
+
+/**
+ * @var {color}
+ * The text color of grid column headers
+ */
+$grid-column-header-color: dynamic($color-bmw-basic5);
+
+/**
+ * @var {string}
+ * The font-family of grid column headers
+ */
+$grid-column-header-font-family: $font-stack;
+
+/**
+ * @var {string}
+ * The font-weight of grid column headers
+ */
+$grid-column-header-font-weight: dynamic(bold);
+
+$grid-column-header-line-height: dynamic(round($grid-column-header-font-size * 1.15));
+
+$grid-header-padding: 7px 10px;

@@ -1,0 +1,50 @@
+/**
+ * @class Ext.grid.header.Container
+ */
+/**
+ * @var {color}
+ * The background-color of grid headers
+ */
+$grid-header-background-color: dynamic($color-bmw-basic3);
+
+/**
+ * @var {color}
+ * The background-color of grid headers when the cursor is over the header
+ */
+$grid-header-over-background-color: dynamic($color-bmw-basic3-shade1);
+
+/**
+ * @var {color}
+ * The color to use for the grid header sort icon when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$grid-header-sort-glyph-color: dynamic($color-bmw-basic5);
+
+/**
+ * @var {color}
+ * The color to use for the grid header trigger icon when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$grid-header-trigger-glyph-color: dynamic($color-bmw-basic5);
+
+/**
+ * @var {string/list}
+ * Glyph for the grid header "sort ascending" icon when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$grid-header-sort-asc-glyph: dynamic($iwp-icon-font-sort_list_asc $grid-header-sort-glyph-font-size $iwp-icon-font-family);
+
+/**
+ * @var {string/list}
+ * Glyph for the grid header "sort descending" icon when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$grid-header-sort-desc-glyph: dynamic($iwp-icon-font-sort_list_desc $grid-header-sort-glyph-font-size $iwp-icon-font-family);
+
+/**
+ * @var {string/list}
+ * Glyph for the grid header menu "sort ascending" icon when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$grid-header-menu-sort-asc-glyph: dynamic($iwp-icon-font-sort_asc $grid-header-sort-glyph-font-size $iwp-icon-font-family);
+
+/**
+ * @var {string/list}
+ * Glyph for the grid header menu "sort descending" icon when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$grid-header-menu-sort-desc-glyph: dynamic($iwp-icon-font-sort_desc $grid-header-sort-glyph-font-size $iwp-icon-font-family);

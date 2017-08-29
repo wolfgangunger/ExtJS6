@@ -1,0 +1,24 @@
+{
+    /**
+     * This is the folder for build outputs in the workspace.
+     */
+    "build": {
+        "dir": "$\u007Bworkspace.dir}/build"
+    },
+
+    /**
+     * These configs determine where packages are generated and extracted to (when downloaded).
+     */
+    "packages": {
+        /**
+         * This folder contains all local packages.
+         * If a comma-separated string is used as value the first path will be used as the path to generate new packages.
+         */
+        "dir": "$\u007Bworkspace.dir}/packages/local,$\u007Bworkspace.dir}/packages",
+
+        /**
+         * This folder contains all extracted (remote) packages.
+         */
+        "extract": "$\u007Bworkspace.dir}/packages/remote"
+    }
+}

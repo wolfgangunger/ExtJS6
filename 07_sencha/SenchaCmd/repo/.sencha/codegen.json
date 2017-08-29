@@ -1,0 +1,28 @@
+{
+  "sources": {
+    "catalog.json.tpl.merge": {
+      "f80cf69a9ccc64087596d8cabb10d8dc0d74772f": "eJyr5lIAgrT8otzEEisFJUM9AyUdLrBYQWJydmJ6arGVQnQsVy0XANNHCl4\u003d"
+    },
+    "sencha.cfg.tpl.merge": {
+      "473f866a5168154d23fb4c0bd4f7e89703461856": "eJy9VsGO2zYQvfsrBt4CWQe2NrcCAfbQ7qmHoAskx15oaWSxS5ECSdlxm/33vhlKtpy0t6R72NWKnDdv3jwOdUefOpuoDr61B2qt4+l5jJwod0wf2dedoWdTv5gD0wfj8SdW9BzDwDFbbGOLjZE6c2QyqztaRx5C5UJtXLWmIXJrP1OIZKaVyH3IfF1qeGDfWH+g4OnUsaLh11m45BgcMA0pnsCUcBKoZHOIZwpDtsFXqzts1HpKIcbTmJh+8Xnn7AsjnVI+Uxr3Kds8ShSls8/mc4VApjY4F07CxEQGGAg2oOi5mYNR73vNQ/SW6r6pGhvx/F7DJ62e+oasT9k4ZzQFYBtoNkWpBhpWohaF7A34Yolr+bdare523/Vn1seW3nrTM4VWn6EUOpRSqK3JqPeEpurClR74LDorAQLw+Pf89Poj+E7GS2SaBrRyuJDSBu+Zkj1Ig/bny8qbpC+lj7X0rLU1ahL9fyvFDpOb68gGlRUhepPrTl0PeU7WNbWJDd1zdai2tG5DeLvebJfhwMM2t+BgxhwAg3TOncXKvtCuiuzOpjyzNjTYgXeJBxNFcIAlztINJTOYnKFqusn/ZW/iejP7HE7h1owuSzvX1y6s6f7S0FMXSpEinVAQeTYVnJpFyr0z/gVgkKAOfc8eBEZdaWwyexwiqWg3iXlJnIp1ZG6AahtDv5Sl+jOJ5+UImkRH42yj+acGLToCNLDUpkqKGxAtcDlJhInsqnIcU17PM6ucfUhQwNrR4bhFYhy/PfTuxASCq1GnEKGC55Rm289OAHoXIowjhd0a/ZJYDfK/2V0JzTpPnvFnoX/YUgqlnbBMlgrxOCvZMIzTo0ig2VLkAkuPvkghpvxofc2X04/iF72RjVh2o5w66wG2kGtLNn97/IIObvhZpmRFv/t5uCSe31KP1IgCXBtGL8iKKyAm66WDEHNDRNppi10XfrwcKkggDm6XMTrhpHviuzHNHljaSXZXCYef11/dH0J3kuhW/nkmJPH1fxpkOrFyD5b74MuHMz2FfkD35PD+q7U032PZ/8OmfrmGRBpMpngt8kY4XHyksjTTlWgjOjaFygAro6oLo2tEFNH1FG3WaaGS23KLA8fz6RZ8HpdllktjEQ64xR2D63p2UgpjrDlNWeleRpShy8TcXOAwCpIFP5nASeFME7w7awXgMZmOTCbHBs/B81zSwR4xpWUCSdFf3XhvBC2c/M01Qp/OwzThhQ2Sg9uccrNQ+QKtQk+lLr4RlibX7LfmuDr08ac/xnfvfv51/nJ4faiSwjzImweF3057pm+S1/IWXnr8rj+o4Am4mPiLD8AdPTuDSVLriv1LPZCgOD6mypxymEeihDkG21DPUW9PGeHO1jmVrw3YBcIdOSYJX/0DpUB2wQ\u003d\u003d"
+    }
+  },
+  "targets": {
+    ".sencha/repo/sencha.cfg": {
+      "source": "sencha.cfg.tpl.merge",
+      "version": "473f866a5168154d23fb4c0bd4f7e89703461856",
+      "parameters": {
+        "senchadir": ".sencha",
+        "username": "anonymous"
+      }
+    },
+    "pkgs/catalog.json": {
+      "source": "catalog.json.tpl.merge",
+      "version": "f80cf69a9ccc64087596d8cabb10d8dc0d74772f",
+      "parameters": {
+        "senchadir": ".sencha",
+        "username": "anonymous"
+      }
+    }
+  }
+}

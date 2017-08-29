@@ -1,0 +1,92 @@
+/** @class Ext.button.Button */
+// NOTE: This var/Button.scss file only holds the styling of the default implementation for Ext buttons and toolbar buttons.
+// 		 For ITO specific buttons (main), please see the mixins contained in the src/Button.scss class.
+
+$button-small-font-family:                      $font-stack;
+$button-small-font-weight:                      normal;
+$button-small-border-width:                     1px;
+$button-small-border-radius:                    0;
+$button-small-padding:                          $iwp-button-padding;
+
+$button-medium-font-family:                     $font-stack;
+$button-medium-font-weight:                     normal;
+$button-medium-border-width:                    1px;
+$button-medium-border-radius:                   0;
+$button-medium-padding:                         $iwp-button-padding;
+
+$button-large-font-family:                      $font-stack;
+$button-large-font-weight:                      normal;
+$button-large-border-width:                     1px;
+$button-large-border-radius:                    0;
+$button-large-padding:                          $iwp-button-padding;
+
+$iwp-button-border-color: 			  		    transparent;
+$iwp-button-border-color-disabled: 			    transparent;
+$iwp-button-border-color-over: 				    $color-bmw-basic4;
+$iwp-button-border-color-pressed: 			    transparent;
+$iwp-button-color:                              $color-app-text-black;
+$iwp-button-color-disabled:                     $color-app-text-black;
+$iwp-button-color-over:                         $color-app-text-black;
+$iwp-button-color-pressed:                      $color-app-text-black;
+$iwp-button-background-color:                   $color-bmw-form-button;
+$iwp-button-background-color-disabled:          $color-bmw-basic2;
+$iwp-button-background-color-over:              $color-bmw-basic5;
+$iwp-button-background-color-pressed:           $color-bmw-basic3-shade2;
+
+//Default button style. Applies to all sizes. Same style as the white default buttons defined in src/Button.scss
+$button-default-border-color: 			  		$iwp-button-border-color;
+$button-default-border-color-disabled: 			$iwp-button-border-color-disabled;
+$button-default-border-color-over: 				$iwp-button-border-color-over;
+$button-default-border-color-focus: 			$iwp-button-border-color-over;
+$button-default-border-color-pressed: 			$iwp-button-border-color-pressed;
+$button-default-inner-border-width-focus: 		0;
+$button-default-base-color: 			  		$color-app-text-white;
+$button-default-background-color:		  		$iwp-button-background-color;
+$button-default-background-color-disabled:		$iwp-button-background-color-disabled;
+$button-default-background-color-focus:			$iwp-button-background-color-over;
+$button-default-background-color-focus-over:	$iwp-button-background-color-over;
+$button-default-background-color-focus-pressed:	$iwp-button-background-color-pressed;
+$button-default-background-color-over:			$iwp-button-background-color-over;
+$button-default-background-color-pressed:		$iwp-button-background-color-pressed;
+$button-default-split-line-color:               $color-bmw-accent2-shade3;
+
+$button-default-color:							$iwp-button-color;
+$button-default-color-disabled:					$iwp-button-color-disabled;
+$button-default-color-focus:					$iwp-button-color;
+$button-default-color-focus-over:				$iwp-button-color-over;
+$button-default-color-focus-pressed:			$iwp-button-color-pressed;
+$button-default-color-over:						$iwp-button-color-over;
+$button-default-color-pressed:					$iwp-button-color-pressed;
+
+//Toolbar buttons are similar to default buttons. Same style as the white toolbar buttons defined in src/Button.scss
+$button-toolbar-border-color: 			  		$iwp-button-border-color;
+$button-toolbar-border-color-disabled: 			$iwp-button-border-color-disabled;
+$button-toolbar-border-color-over: 				$iwp-button-border-color-over;
+$button-toolbar-border-color-pressed: 			$iwp-button-border-color-pressed;
+$button-toolbar-inner-border-width-focus: 		0;
+$button-toolbar-background-color:		  		$iwp-button-background-color;
+$button-toolbar-background-color-disabled:		$iwp-button-background-color-disabled;
+$button-toolbar-background-color-focus:			$iwp-button-background-color;
+$button-toolbar-background-color-focus-over:	$iwp-button-background-color-over;
+$button-toolbar-background-color-focus-pressed:	$iwp-button-background-color-pressed;
+$button-toolbar-background-color-over:			$iwp-button-background-color-over;
+$button-toolbar-background-color-pressed:		$iwp-button-background-color-pressed;
+
+$button-toolbar-color:							$iwp-button-color;
+$button-toolbar-color-disabled:					$iwp-button-color-disabled;
+$button-toolbar-color-focus:					$iwp-button-color;
+$button-toolbar-color-focus-over:				$iwp-button-color-over;
+$button-toolbar-color-focus-pressed:			$iwp-button-color-pressed;
+$button-toolbar-color-over:						$iwp-button-color-over;
+$button-toolbar-color-pressed:					$iwp-button-color-pressed;
+
+//Remove all kind of opacity on disabled state
+$button-opacity-disabled:                       0.5;
+$button-default-glyph-opacity:                  1;  //leave glyph at 1 since the component is affected from the var above
+$button-toolbar-opacity-disabled:               0.5;
+$button-toolbar-glyph-opacity:                  1;  //leave glyph at 1 since the component is affected from the var above
+
+//Button Glyph
+$button-small-arrow-glyph: $iwp-icon-font-gen_nav_arrow_down $iwp-icon-font-button-small $iwp-icon-font-family;
+$button-medium-arrow-glyph: $iwp-icon-font-gen_nav_arrow_down $iwp-icon-font-button-medium $iwp-icon-font-family;
+$button-large-arrow-glyph: $iwp-icon-font-gen_nav_arrow_down $iwp-icon-font-button-large $iwp-icon-font-family;

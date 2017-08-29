@@ -1,0 +1,63 @@
+/**
+ * @class Ext.view.BoundList
+ */
+
+/**
+ * @var {color}
+ * The background-color of the BoundList
+ */
+$boundlist-background-color:                    $color-bmw-basic5;
+
+/**
+ * @var {color}
+ * The border-color of the BoundList
+ */
+$boundlist-border-color:                        $color-bmw-basic1;
+
+/**
+ * @var {number}
+ * The height of BoundList items
+ */
+$boundlist-item-height:                         28px;
+
+/**
+ * @var {string}
+ * The font family of the BoundList items
+ */
+$boundlist-item-font-family:                    $font-stack;
+
+/**
+ * @var {number}
+ * The font size of the BoundList items
+ */
+$boundlist-item-font-size:                      $font-size-small;
+
+/**
+ * @var {color}
+ * The text color of the BoundList items
+ */
+$boundlist-item-text-color:                     $color-app-text-black;
+
+/**
+ * @var {color}
+ * The text color of hovered BoundList items
+ */
+$boundlist-item-over-text-color:                $color-app-text-black;
+
+/**
+ * @var {color}
+ * The text color of selected BoundList items
+ */
+$boundlist-item-selected-text-color:            $color-app-text-white;
+
+/**
+ * @var {color}
+ * The background-color of hovered BoundList items
+ */
+$boundlist-item-over-background-color:          $color-bmw-basic2;
+
+/**
+ * @var {color}
+ * The background-color of selected BoundList items
+ */
+$boundlist-item-selected-background-color:      $color-bmw-highlight;

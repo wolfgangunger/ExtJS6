@@ -1,0 +1,161 @@
+/**
+ * @var {number} $form-field-height
+ * Height for form fields.
+ */
+$form-field-height: 30px;
+
+/**
+ * @var {color} $form-field-background-color
+ * Background color for form fields.
+ */
+$form-field-background-color:           $color-bmw-basic5;
+
+/**
+ * @var {color} $form-field-empty-color
+ * Text color for empty form fields.
+ */
+$form-field-empty-color:                $color-bmw-form-border;
+
+/**
+ * @var {color} $form-field-color
+ * Text color for form fields.
+ */
+$form-field-color:                      $color-bmw-basic4;
+
+/**
+ * @var {string} $form-field-font-family
+ * Font family for form fields.
+ */
+$form-field-font-family:                $font-stack;
+
+/**
+ * @var {number} $form-field-font-size
+ * Font size for form fields.
+ */
+$form-field-font-size:                  $font-size-normal;
+
+/**
+ * @var {color} $form-field-focus-border-color
+ * Border color for focused form fields.
+ */
+$form-field-focus-border-color:         $color-bmw-form-text;
+
+/**
+ * @var {number}
+ * Opacity of disabled form fields
+ */
+$form-field-disabled-opacity:           .5;
+
+/**
+ * @var {color} $form-field-invalid-border-color
+ * Border color for invalid form fields.
+ */
+$form-field-invalid-border-color:       $color-bmw-error;
+
+/**
+ * @var {color}
+ * The text color of display fields
+ */
+$form-display-field-color:              $color-bmw-basic4;
+
+/**
+ * @var {color}
+ * The color of text field triggers when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$form-trigger-glyph-color:              $color-bmw-accent2-shade1;
+
+/**
+ * @var {number/list}
+ * Margin for error icons that are aligned to the side of the field
+ */
+$form-error-icon-side-margin:           0 5px;
+
+/**
+ * @var {color}
+ * The text color of form field labels
+ */
+$form-label-font-color:                 $color-bmw-basic4;
+
+/**
+ * @var {number}
+ * The font-size of form field labels
+ */
+$form-label-font-size:                  $font-size-normal;
+
+/**
+ * @var {number}
+ * The line-height of form field labels
+ */
+$form-label-line-height:                21px;
+
+/**
+ * @var {string}
+ * The font-family of form field labels
+ */
+$form-label-font-family:                $font-stack;
+
+/**
+ * @var {number}
+ * The line-height of toolbar form field labels
+ */
+$form-toolbar-label-line-height:        $form-label-line-height;
+
+/**
+ * @var {string/list}
+ * The glyph for the checkbox when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$form-checkbox-glyph: dynamic($iwp-icon-font-checkbox_unchecked $tree-glyph-font-size $iwp-icon-font-family);
+
+/**
+ * @var {string/list}
+ * The glyph for the checkbox in "checked" state when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$form-checkbox-checked-glyph: dynamic($iwp-icon-font-checkbox_checked $tree-glyph-font-size $iwp-icon-font-family);
+
+/**
+ * @var {string}
+ * The font-size of the checkbox's {@link #boxLabel}
+ */
+$form-checkbox-label-font-size:         $form-field-font-size;
+
+/**
+ * @var {string}
+ * The font-family of the checkbox's {@link #boxLabel}
+ */
+$form-checkbox-label-font-family:       $form-label-font-family;
+
+/**
+ * @var {string}
+ * The line-height of the checkbox's {@link #boxLabel}
+ */
+$form-checkbox-label-line-height:       $form-label-line-height;
+
+/**
+ * @var {color}
+ * The color of the checkbox when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$form-checkbox-glyph-color:             $color-bmw-basic4;
+
+/**
+ * @var {color}
+ * The color of the checkbox in "focused" state when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$form-checkbox-glyph-focus-color:       $color-bmw-form-text;
+
+/**
+ * @var {string/list}
+ * The default glyph for for text field triggers when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$form-trigger-glyph:                    $iwp-icon-font-gen_nav_arrow_down $iwp-icon-font-button-small $iwp-icon-font-family;
+
+
+$form-toolbar-checkbox-background-image:dynamic('checkbox');
+$form-field-padding: dynamic(3px 6px 2px);
+$form-field-height: dynamic(24px);
+$form-item-margin-bottom: dynamic(5px);
+$form-trigger-width: 25px;
+$grid-cell-field-trigger-width: 25px
+
+.#{$prefix}form-item-label-top .#{$prefix}form-item-label-text{
+    font-size: $font-size-small;
+}

@@ -1,0 +1,49 @@
+/**
+ * @var {number}
+ * Opacity of the LoadMask
+ */
+$loadmask-opacity:                      0.7;
+
+/**
+ * @var {color}
+ * The background-color of the LoadMask
+ */
+$loadmask-background-color:             $color-bmw-basic4;
+
+/**
+ * @var {number}
+ * Opacity of the LoadMask when applied to the document body element.
+ * Used for modal Windows and MessageBox
+ */
+$loadmask-page-opacity:                 $loadmask-opacity;
+
+/**
+ * @var {color}
+ * The background-color of the LoadMask when applied to the document body element.
+ * Used for modal Windows and MessageBox
+ */
+$loadmask-page-background-color:        $loadmask-background-color;
+
+/**
+ * @var {string}
+ * The icon to display in the message inner element
+ */
+$loadmask-msg-inner-icon: dynamic('blue-loading');
+
+/**
+* @var {color}
+* The background-color of the LoadMask's message element
+*/
+$loadmask-msg-background-color: dynamic($color-bmw-basic5);
+
+/**
+ * @var {color}
+ * The background-color of the message inner element
+ */
+$loadmask-msg-inner-background-color: dynamic($color-bmw-basic5);
+
+/*
+Tweak the text to appear to the right of the spinner icon
+*/
+$loadmask-msg-inner-icon-position: 0;
+$loadmask-msg-text-padding: 10px 5px 0 34px;

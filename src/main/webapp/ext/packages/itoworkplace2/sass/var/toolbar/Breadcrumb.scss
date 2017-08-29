@@ -1,0 +1,11 @@
+/**
+ * @var {string/list}
+ * Glyph for the "arrow" icon when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$breadcrumb-arrow-glyph: dynamic($iwp-icon-font-gen_nav_arrow_right $iwp-icon-font-button-small $iwp-icon-font-family);
+
+/**
+ * @var {string/list}
+ * Glyph for the "expanded arrow" icon when {@link Global_CSS#$enable-font-icons} is `true`.
+ */
+$breadcrumb-arrow-expanded-glyph: dynamic($iwp-icon-font-gen_nav_arrow_down $iwp-icon-font-button-small $iwp-icon-font-family);

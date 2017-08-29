@@ -1,0 +1,23 @@
+
+.iwp-icon-gen_settings:before{
+    content: "\e97d" !important;
+}
+
+.iwp-icon-gen_expert:before{
+    content: "\e9bf" !important;
+}
+
+
+
+.filter-button,
+.filter-create-button,
+.filter-reset-button {
+    background-size: contain;
+}
+.filter-menu-delete {
+    background-size: contain;
+    width: 18px ! important;
+    height: 18px ! important;
+    top: 5px ! important;
+    left: 10px ! important;
+}

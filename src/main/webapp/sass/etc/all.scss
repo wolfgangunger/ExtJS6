@@ -1,0 +1,34 @@
+.x-grid-cell.x-item-disabled .x-grid-checkcolumn {
+	border: 0 !important;
+}
+
+.x-grid-cell-inner {
+    text-align:left !important;
+}
+
+.treelist-highlight-selected-node {
+    color: green;
+}
+
+
+// testpoint form
+.x-boundlist-item img.chkCombo {
+    background: transparent url('../resources/images/menu/default-unchecked.png');
+    height: 16px;
+    width: 16px;
+}
+.x-boundlist-selected img.chkCombo {
+    background: transparent url('../resources/images/menu/default-checked.png');
+    height: 16px;
+    width: 16px;
+}
+
+
+// BBM Overview
+.deleted-row .x-grid-cell {
+    background-color: gray;
+}
+
+.new-row .x-grid-cell {
+    background-color: green;
+}

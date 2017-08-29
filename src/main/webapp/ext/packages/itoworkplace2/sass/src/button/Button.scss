@@ -1,0 +1,68 @@
+// Styling for ui:'ito-btn-main' and Neptun 'plain'
+// The default button of Ext will be styled with the help of variables in var/Buttons.scss
+
+@include extjs-button-small-ui(
+    $ui:                                'ito-btn-main',
+    // normal state
+    $color:                             $color-bmw-basic5,
+    $glyph-color:                       $color-bmw-basic5,
+    $arrow-glyph-color:                 $color-bmw-basic5,
+    $split-line-color:                  $color-bmw-highlight-shade2,
+    $background-color:                  $color-bmw-highlight,
+    // hover & focus
+    $background-color-over:             $color-bmw-form-button-main-light,
+    $background-color-focus:            $color-bmw-form-button-main-light,
+    $background-color-focus-over:       $color-bmw-form-button-main-light,
+    $border-color-over:                 none,
+    $border-color-focus:                none,
+    $border-color-focus-over:           none,
+    // pressed / toggle
+    $background-color-pressed:          $color-bmw-form-button-main-dark,
+    // disabled
+    $color-disabled:                    $color-bmw-basic2,
+    $opacity-disabled:                  0.7
+);
+
+@include extjs-button-medium-ui(
+    $ui:                                'ito-btn-main',
+    // normal state
+    $color:                             $color-bmw-basic5,
+    $glyph-color:                       $color-bmw-basic5,
+    $arrow-glyph-color:                 $color-bmw-basic5,
+    $split-line-color:                  $color-bmw-highlight-shade2,
+    $background-color:                  $color-bmw-highlight,
+    // hover & focus
+    $background-color-over:             $color-bmw-form-button-main-light,
+    $background-color-focus:            $color-bmw-form-button-main-light,
+    $background-color-focus-over:       $color-bmw-form-button-main-light,
+    $border-color-over:                 none,
+    $border-color-focus:                none,
+    $border-color-focus-over:           none,
+    // pressed / toggle
+    $background-color-pressed:          $color-bmw-form-button-main-dark,
+    // disabled
+    $color-disabled:                    $color-bmw-basic2,
+    $opacity-disabled:                  0.7
+);
+
+@include extjs-button-large-ui(
+    $ui:                                'ito-btn-main',
+    // normal state
+    $color:                             $color-bmw-basic5,
+    $glyph-color:                       $color-bmw-basic5,
+    $arrow-glyph-color:                 $color-bmw-basic5,
+    $split-line-color:                  $color-bmw-highlight-shade2,
+    $background-color:                  $color-bmw-highlight,
+    // hover & focus
+    $background-color-over:             $color-bmw-form-button-main-light,
+    $background-color-focus:            $color-bmw-form-button-main-light,
+    $background-color-focus-over:       $color-bmw-form-button-main-light,
+    $border-color-over:                 none,
+    $border-color-focus:                none,
+    $border-color-focus-over:           none,
+    // pressed / toggle
+    $background-color-pressed:          $color-bmw-form-button-main-dark,
+    // disabled
+    $color-disabled:                    $color-bmw-basic2,
+    $opacity-disabled:                  0.7
+);

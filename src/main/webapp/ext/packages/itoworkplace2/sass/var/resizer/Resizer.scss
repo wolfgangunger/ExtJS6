@@ -1,0 +1,8 @@
+/** @class Ext.resizer.Resizer */
+//
+
+/**
+ * @var {number}
+ * The size of resizer handles
+ */
+$resizer-handle-size: dynamic($panel-frame-border-width);

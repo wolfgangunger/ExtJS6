@@ -1,0 +1,78 @@
+/**
+ * @var {color}
+ * The default border-color of Panels
+ */
+$panel-border-color:                    $color-bmw-basic3-shade3;
+
+/**
+ * @var {number}
+ * The default border-width of Panels
+ */
+$panel-border-width:                    2px;
+$panel-header-line-height: dynamic(16px);
+$panel-header-padding: dynamic(9px 9px 10px);
+
+// ===============================
+// ========= PANEL BODY ==========
+// ===============================
+/**
+ * @var {color}
+ * The default body background-color of Panels
+ */
+$panel-body-background-color:           $color-bmw-basic5;
+
+/**
+ * @var {color}
+ * The default color of text inside a Panel's body
+ */
+$panel-body-color:                      $color-app-text-black;
+
+/**
+ * @var {color}
+ * The default body background-color of Panels
+ */
+$panel-body-background-color:           $color-bmw-basic5;
+
+/**
+ * @var {number}
+ * The default font-size of the Panel body
+ */
+$panel-body-font-size:                  $font-size-normal;
+
+/**
+ * @var {number}
+ * The font-size of Panel Headers
+ */
+$panel-header-font-size:               dynamic($font-size);
+
+/**
+ * @var {color}
+ * The text color of the Panel Header
+ */
+$panel-header-color:                    $color-app-text-black;
+
+/**
+ * @var {color}
+ * The background-color of the Panel Header
+ */
+$panel-header-background-color:         $color-bmw-basic3-shade3;
+
+/**
+ * @var {color}
+ * The color of the Panel Header glyph icon
+ */
+$panel-header-glyph-color:              $color-app-text-black;
+
+/**
+ * @var {boolean}
+ * True to adjust the padding of borderless panel headers so that their height is the same
+ * as the height of bordered panels.  This is helpful when borderless and bordered panels
+ * are used side-by-side, as it maintains a consistent vertical alignment.
+ */
+$panel-header-noborder-adjust:          true;
+
+/**
+ * @var {color}
+ * The background-color of framed Panels
+ */
+$panel-frame-background-color:          $color-bmw-basic5;

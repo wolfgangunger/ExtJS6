@@ -1,0 +1,79 @@
+.atg-navigation-container {
+  background: #0093c5;
+}
+
+.atg-menu-toolbar {
+  background: transparent;
+  padding: 0px;
+}
+
+.atg-navigation {
+  margin: 0;
+  >div >div {
+    padding: 0px !important;
+  }
+
+}
+
+// .atg-side-menu {
+//   box-sizing: border-box;
+//   background: #0093c5;
+//   height: 100% !important;
+//   width: 40px !important;
+// }
+//
+// .atg-side-menu-body {
+//   background: transparent;
+//   width: 40px;
+//   >div {
+//     width: 40px !important;
+//     > div {
+//       width: 40px;
+//       height: 100%;
+//     }
+//   }
+// }
+
+.atg-menu-button {
+  padding: 0;
+  height: 40px;
+  width: 40px !important;
+  background: transparent;
+
+  &:enabled, &:visited,
+  &:hover, &:not(:active),
+  &:focus, &:visited {
+    background: transparent;
+    border: 0 transparent;
+  }
+
+
+  &:active{
+    background: #444444;
+  }
+
+  >span >span >span {
+    color: white;
+    background-size: contain;
+  }
+}
+.atg-menu-button-brand {
+  padding: 0;
+  height: 90px;
+  width: 40px;
+  background: transparent;
+  &:hover {
+    background: transparent;
+    border: 0 transparent;
+  }
+
+  >span >span {
+    span:nth-of-type(2) {
+      color: white;
+      padding: 0;
+      text-transform: uppercase;
+      transform: rotate(-90deg);
+      overflow: inherit; // todo: remove hack
+    }
+  }
+}

@@ -1,0 +1,8 @@
+@include extjs-window-ui(
+    $ui:                'error',
+    $ui-border-color:   $color-bmw-error
+);
+
+.x-resizable-handle-east{
+    width: 2px;
+}

@@ -1,0 +1,11 @@
+/*
+Tweak the text to appear to the right of the spinner icon
+*/
+
+.#{$prefix}mask-msg-inner {
+    height: 34px;
+}
+
+.#{$prefix}mask-msg-text {
+    height: 100%;
+}

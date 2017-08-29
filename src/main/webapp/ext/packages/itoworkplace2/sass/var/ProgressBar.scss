@@ -1,0 +1,21 @@
+/**
+ * @class Ext.ProgressBar
+ */
+
+/**
+ * @var {number}
+ * The height of the ProgressBar
+ */
+$progress-height: dynamic(24px);
+
+/**
+ * @var {color}
+ * The background-color of the ProgressBar
+ */
+$progress-background-color: dynamic($color-bmw-basic2);
+
+/**
+ * @var {color}
+ * The background-color of the ProgressBar's moving element
+ */
+$progress-bar-background-color: dynamic($color-bmw-highlight);
