@@ -25,7 +25,7 @@ Ext.define('ExtJS6.model.salesOrder.SalesOrder', {
         }],
     proxy: {
         type: 'rest',
-        url: 'MicroServiceJEE7/api/v1/sample/salesOrders',
+        url: 'microServiceJEE7/api/v1/sample/salesOrders',
         reader: {
             type: 'json'
         },

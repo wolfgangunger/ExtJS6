@@ -18,7 +18,7 @@
     <servlet-class>org.eclipse.jetty.servlets.ProxyServlet$Transparent</servlet-class>
     <init-param>
         <param-name>ProxyTo</param-name>
-        <param-value>http://localhost:8080/MicroServiceJEE7/api</param-value>
+        <param-value>http://localhost:8080/microServiceJEE7/api</param-value>
     </init-param>
     <init-param>
         <param-name>HostHeader</param-name>
@@ -26,13 +26,13 @@
     </init-param>
     <init-param>
         <param-name>Prefix</param-name>
-        <param-value>/MicroServiceJEE7/api</param-value>
+        <param-value>/microServiceJEE7/api</param-value>
     </init-param>
     <load-on-startup>1</load-on-startup>
   </servlet>
   <servlet-mapping>
     <servlet-name>transparentReverseProxy</servlet-name>
-    <url-pattern>/MicroServiceJEE7/api/*</url-pattern>
+    <url-pattern>/microServiceJEE7/api/*</url-pattern>
   </servlet-mapping>
 
 </web-app>
